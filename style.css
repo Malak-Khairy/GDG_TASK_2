@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+p {
+    color: gray;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+/*First Sec Styling*/
+.First-Sec{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.First-Sec-Content{
+   text-align: center;
+   padding: 40px 0;
+}
+.IOS-Btn{
+    background-color:rgb(68, 210, 179) ;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 15px 2px;
+    color: white;
+}
+.Mac-Btn{
+     background-color:rgb(36, 123, 236) ;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 15px 2px;
+    color: white;
+}
+/*Secound Sec Styling*/
+.Sec-Content{
+    margin-bottom: 75px;
+    padding: 0 20px;
+}
+.Sec-Content h1 {
+    margin-bottom: 15px;
+}
+.Container{
+    width: 100%;
+    text-align: left;
+}
+.Img{
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+}
+.Img img {
+    width: 100%;
+    display: block;
+}
+.Features{
+    display: inline-block;
+    width: 35%;
+    margin-left: 5%;
+    vertical-align: middle;
+    text-align: left;
+}
+.feature{
+    margin-bottom: 40px;
+}
+/*Third Sec Styling*/
+.Third_Sec {
+    padding: 50px 20px 100px;
+}
+.Third_Sec h1 {
+    margin-bottom: 15px;
+}
+.Third_Sec p {
+    margin-bottom: 60px;
+}
+.Third_Sec img {
+    width: 80%;
+    max-width: 850px;
+}
+/*Fourth Sec Styling*/
+.Workflow {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 65px;
+}
+.Flow-item {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.Flow-item img {
+    height: 40px;
+    margin-bottom: 30px;
+}
+.Flow-item p{
+    margin-bottom: 100px;
+}
+.Icons{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.Icons img{
+    display: inline-block;
+    width: 15%;
+    max-width: 190px;
+    margin:60px 30px 100px 30px ;
+    vertical-align: middle;
+}
+/* Fifth Section Styling */
+.Fifth-Sec {
+    padding: 50px 20px 120px;
+}
+.Fifth-Sec h1 {
+    margin-bottom: 15px;
+}
+.Fifth-Sec p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+/*Footer Styling*/
+footer {
+    background-color: rgba(210, 194, 194, 0.193);
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+footer img {
+    display: inline-block;
+    width: 70px;
+    vertical-align: middle; 
+}
+.Footer-Links {
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+}
+.Link-col {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.Link-col a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.Footer-Social {
+    display: inline-block;
+    vertical-align: middle;
+}
+.Footer-Social a {
+    display: inline-block;
+    margin: 0 5px;
+}
+.Footer-Social img {
+    width: 25px;
+}
